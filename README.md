@@ -19,3 +19,17 @@
 <li><input type="checkbox" checked>Todo o site deve estar responsivo.</li>
 </ol>
 
+
+<input type="checkbox" checked>
+<input type="checkbox" checked>texto
+<input type="checkbox" checked><p>texto</p>
+<input type="checkbox" checked><label>texto</label>
+
+<ol>
+<li><input type="checkbox" checked></li>
+<li><input type="checkbox" checked>texto</li>
+<li><input type="checkbox" checked><p>texto</p></li>
+<li><input type="checkbox" checked><label>texto</label></li>
+</ol>
+
+
