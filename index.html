@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
     <head>
         <meta charset="UTF-8">
@@ -7,32 +7,97 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-        <title>Document</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Portfólio</title>
     </head>
 
-    <body>
+    <body id="page-top">
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand" href="#page-top">Logo</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                                href="#page-top">Home</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                                href="#portfolio">Portfólio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                                href="#sobre">Sobre</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                                href="#contato">Contato</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <header class="masthead bg-primary text-white text-center" id="home">
+            <div class="container d-flex align-items-center flex-column">
+                <img class="masthead-avatar mb-5" src="./img/avataaars.svg" alt="imagem avatar" />
+                <h1 class="masthead-heading text-uppercase mb-0">Fulano de Tal</h1>
+                <p class="masthead-subheading font-weight-light mb-0">Pagina de Fulano de Tal apresentado - Web Designer
+                </p>
+                <button type="button" class="btn btn-secondary">Click aqui</button>
+            </div>
+        </header>
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <h1>Portfólio</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat qui molestiae, laudantium iste neque
+                    harum provident unde eaque, ea ad fuga distinctio corrupti nesciunt mollitia iure, error id saepe
+                    quas.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat qui molestiae, laudantium iste neque
+                    harum provident unde eaque, ea ad fuga distinctio corrupti nesciunt mollitia iure, error id saepe
+                    quas.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat qui molestiae, laudantium iste neque
+                    harum provident unde eaque, ea ad fuga distinctio corrupti nesciunt mollitia iure, error id saepe
+                    quas.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat qui molestiae, laudantium iste neque
+                    harum provident unde eaque, ea ad fuga distinctio corrupti nesciunt mollitia iure, error id saepe
+                    quas.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat qui molestiae, laudantium iste neque
+                    harum provident unde eaque, ea ad fuga distinctio corrupti nesciunt mollitia iure, error id saepe
+                    quas.</p>
+            </div>
+        </section>
 
+        <section class="page-section bg-primary text-white mb-0" id="sobre">
+            <div class="container">
+                <h1>Sobre</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nemo suscipit a inventore, mollitia
+                    nulla alias facere ullam facilis consectetur ipsam modi! Provident qui ut ipsam maxime porro, sed
+                    iste?</p>
+            </div>
+        </section>
 
+        <section class="page-section" id="contato">
+            <div class="container">
+                <h1>Entre em contato</h1>
+            </div>
+        </section>
 
+        <footer class="footer text-center">
+            <div class="container">
+                <h1>Footer</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic minus expedita maxime vitae, fuga ea
+                    pariatur facere blanditiis deleniti? Voluptatum facilis, minus nobis saepe deleniti doloremque
+                    voluptates ipsum odio eum!</p>
+            </div>
+        </footer>
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Site Portfólio 2021</small></div>
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
             crossorigin="anonymous"></script>
+            <script src="./js/script.js"></script>
+            <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 
 </html>
