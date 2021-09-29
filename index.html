@@ -1,157 +1,220 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/style.css">
-        <title>Portfólio</title>
-    </head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portfólio</title>
+</head>
 
-    <body id="page-top">
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top">Logo</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
-                    type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">Logo</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#page-top">Home</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#portfolio">Portfólio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#sobre">Sobre</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#contato">Contato</a></li>
+                </ul>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary button-login" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Login
                 </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                                href="#page-top">Home</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                                href="#portfolio">Portfólio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                                href="#sobre">Sobre</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                                href="#contato">Contato</a></li>
-                    </ul>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary button-login" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">
-                        Login
-                    </button>
-                </div>
             </div>
-        </nav>
-        <header class="masthead  text-white text-center" id="home">
-            <div class="d-flex align-items-center flex-column">
-                <div class="row-sm">
-                    <img class="masthead-avatar mb-5" src="./img/avataaars.svg" alt="imagem avatar" />
-                    <h1 class="masthead-heading text-uppercase mb-0">Fulano de Tal</h1>
-                    <p class="masthead-subheading  font-weight-light mb-0">Pagina de Fulano de Tal apresentado -
-                        Web Designer
-                    </p>
-                    <button type="button" class="btn btn-primary button-sb">Saiba Mais</button>
-                </div>
-            </div>
-        </header>
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
-                <h1>Portfólio</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat qui molestiae, laudantium iste neque
-                    harum provident unde eaque, ea ad fuga distinctio corrupti nesciunt mollitia iure, error id saepe
-                    quas.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat qui molestiae, laudantium iste neque
-                    harum provident unde eaque, ea ad fuga distinctio corrupti nesciunt mollitia iure, error id saepe
-                    quas.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat qui molestiae, laudantium iste neque
-                    harum provident unde eaque, ea ad fuga distinctio corrupti nesciunt mollitia iure, error id saepe
-                    quas.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat qui molestiae, laudantium iste neque
-                    harum provident unde eaque, ea ad fuga distinctio corrupti nesciunt mollitia iure, error id saepe
-                    quas.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat qui molestiae, laudantium iste neque
-                    harum provident unde eaque, ea ad fuga distinctio corrupti nesciunt mollitia iure, error id saepe
-                    quas.</p>
-            </div>
-        </section>
-
-        <section class="page-section bg-primary text-white mb-0" id="sobre">
-            <div class="container">
-                <h2>Sobre</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nemo suscipit a inventore, mollitia
-                    nulla alias facere ullam facilis consectetur ipsam modi! Provident qui ut ipsam maxime porro, sed
-                    iste?</p>
-            </div>
-        </section>
-
-        <section class="page-section" id="contato">
-            <div class="container">
-                <h1>Entre em contato</h1>
-            </div>
-        </section>
-
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                   
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-12 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Siga nas redes sociais</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#"><i
-                                class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#"><i
-                                class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#"><i
-                                class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#"><i
-                                class="fab fa-fw fa-dribbble"></i></a>
-                    </div>
-                </div>
-        </footer>
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Site Portfólio 2021</small></div>
         </div>
+    </nav>
+    <header class="masthead  text-white text-center" id="home">
+        <div class="d-flex align-items-center flex-column">
+            <div class="row-sm">
+                <img class="masthead-avatar mb-5" src="./img/avataaars.svg" alt="imagem avatar" />
+                <h1 class="masthead-heading text-uppercase mb-0">Fulano de Tal</h1>
+                <p class="masthead-subheading  font-weight-light mb-0">Pagina de Fulano de Tal apresentado -
+                    Web Designer
+                </p>
+                <button type="button" class="btn btn-primary button-sb">Saiba Mais</button>
+            </div>
+        </div>
+    </header>
+    <section class="page-section portfolio" id="portfolio">
+        <h2 class="text-center mb-5">Portfólio</h2>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
 
-
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Tela de Login</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-                                <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com mais
-                                    ninguém.
-                                </div>
+                <!-- Project 1 -->
+                <div class="col">
+                    <a href="project-1.html">
+                        <div class="card h-100">
+                            <img src="img/project-1.png" class="card-img-top view overlay" alt="Layout da página inicial de um site corporativo">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Site Corporativo</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Senha</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="col">
+                    <a href="project-2.html">
+                        <div class="card h-100">
+                            <img src="img/project-2.png" class="card-img-top view overlay" alt="Layout da página inicial de uma landing page de um aplicativo">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Landing Page de um Aplicativo</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Lembrar-me</label>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="col">
+                    <a href="project-3.html">
+                        <div class="card h-100">
+                            <img src="img/project-3.png" class="card-img-top" alt="Layout da página inicial de um site de uma conferência">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Site para Conferência</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
-                            <button type="submit" class="btn btn-primary">Entrar</button>
-                        </form>
-                    </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="col">
+                    <a href="project-4.html">
+                        <div class="card h-100">
+                            <img src="img/project-4.png" class="card-img-top" alt="Layout da página inicial de um site de uma empresa de ativírus">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Site para Empresa de Antivírus</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="col">
+                    <a href="project-5.html">
+                        <div class="card h-100">
+                            <img src="img/project-5.png" class="card-img-top" alt="Layout da página inicial de um site de uma agência de Data Marketing">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Site para Agência de Data Marketing</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="col">
+                    <a href="project-6.html">
+                        <div class="card h-100">
+                            <img src="img/project-6.png" class="card-img-top" alt="Layout da página inicial de um site de uma agência de Design">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Site para Agência de Design</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-            crossorigin="anonymous"></script>
-        <script src="./js/script.js"></script>
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+    </section>
+
+    <section class="page-section bg-primary text-white mb-0" id="sobre">
+        <div class="container">
+            <h2>Sobre</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nemo suscipit a inventore, mollitia
+                nulla alias facere ullam facilis consectetur ipsam modi! Provident qui ut ipsam maxime porro, sed
+                iste?</p>
+        </div>
+    </section>
+
+    <section class="page-section" id="contato">
+        <div class="container">
+            <h1>Entre em contato</h1>
+        </div>
+    </section>
+
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+
+                <!-- Footer Social Icons-->
+                <div class="col-lg-12 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Siga nas redes sociais</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#"><i
+                            class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#"><i
+                            class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-dribbble"></i></a>
+                </div>
+            </div>
+    </footer>
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright &copy; Site Portfólio 2021</small></div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Tela de Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com mais
+                                ninguém.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Lembrar-me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Entrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
 
 </html>
