@@ -1,4 +1,4 @@
-# checkpoint_03_frontend1
+# Checkpoint_03_frontend1
 
 <h1>Projeto do Terceiro checkpoint da disciplina frontend 1 da Digital House</h1>
 <h2>Descrição do projeto!</h2>
@@ -14,7 +14,7 @@
 <li> - [X] O site deve ter rolagem suave.</li>
 <li> - [ ] Mínimo de itens para listagem é 6.</li>
 <li> - [ ] A listagem dos itens tem de ter um scale e ganho de opacidade no hover, mas se quiser fazer outra animação, também pode.</li>
-<li> - [ ]Seu site tem de ter uma página de detalhes para cada item listado onde haverá uma explicação sobre o mesmo. Ex: A página de um ﬁlme teria sua sinopse, link para o trailer e ﬁcha técnica.</li>
+<li> - [ ] Seu site tem de ter uma página de detalhes para cada item listado onde haverá uma explicação sobre o mesmo. Ex: A página de um ﬁlme teria sua sinopse, link para o trailer e ﬁcha técnica.</li>
 <li> - [ ] Formulário de login, cujo acesso é feito no header.</li>
 <li> - [X] Todo o site deve estar responsivo.</li>
 </ol>
