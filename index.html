@@ -88,14 +88,79 @@
 
         <section class="page-section" id="contato">
             <div class="container">
-                <h1>Entre em contato</h1>
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Entre em contato</h2>
+               
+                <div class="divider-custom">                    
+                </div>
+                <!-- Contact Section Form-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7">
+                        <form id="contactForm" data-sb-form-api-token="#">
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                                    data-sb-validations="required" />
+                                <label for="name">Nome completo</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">É necessário o nome
+                                    completo.</div>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                                    data-sb-validations="required,email" />
+                                <label for="email">Email</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required"> É necessário o e-mail.
+                                </div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">E-mail não é válido.</div>
+                            </div>
+                            <!-- Phone number input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
+                                    data-sb-validations="required" />
+                                <label for="phone">Telefone</label>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">Anúmero de telefone é
+                                    obrigatório.</div>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text"
+                                    placeholder="Enter your message here..." style="height: 10rem"
+                                    data-sb-validations="required"></textarea>
+                                <label for="message">Mensagem</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">
+                                    É necessária uma mensagem.
+                                </div>
+                            </div>
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder"></div>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage">
+                                <div class="text-center text-danger mb-3">Error sending message!</div>
+                            </div>
+                            <!-- Submit Button-->
+                            <button class="btn btn-primary btn-xl disabled" id="submitButton"
+                                type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
 
         <footer class="footer text-center">
             <div class="container">
                 <div class="row">
-                   
+
                     <!-- Footer Social Icons-->
                     <div class="col-lg-12 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Siga nas redes sociais</h4>
