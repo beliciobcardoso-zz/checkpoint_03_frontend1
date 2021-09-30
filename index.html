@@ -56,6 +56,7 @@
             </div>
         </div>
     </header>
+
     <section class="page-section portfolio" id="portfolio">
         <h2 class="text-center mb-5">Portfólio</h2>
         <div class="container">
@@ -144,16 +145,98 @@
 
     <section class="page-section bg-primary text-white mb-0" id="sobre">
         <div class="container">
-            <h2>Sobre</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nemo suscipit a inventore, mollitia
-                nulla alias facere ullam facilis consectetur ipsam modi! Provident qui ut ipsam maxime porro, sed
-                iste?</p>
+
+            <h2 class="page-section-heading text-center text-uppercase text-white">Sobre</h2>
+
+            <div class="divider-custom divider-light">
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 ms-auto">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo incidunt
+                        modi cupiditate tempore harum recusandae cum voluptas nobis eos optio, eum error beatae
+                        ipsam delectus porro iure unde nulla. Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Quo corporis accusantium repudiandae reprehenderit.</p>
+                </div>
+                <div class="col-lg-4 me-auto">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores explicabo
+                        aliquid, maiores a accusantium eaque ab provident sit! Facilis exercitationem voluptate
+                        officiis! Eum molestias quaerat laborum quo ea error nulla.</p>
+                </div>
+            </div>
+
         </div>
     </section>
 
     <section class="page-section" id="contato">
         <div class="container">
-            <h1>Entre em contato</h1>
+            <!-- Contact Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Entre em contato</h2>
+
+            <div class="divider-custom">
+            </div>
+            <!-- Contact Section Form-->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <form id="contactForm" data-sb-form-api-token="#">
+                        <!-- Name input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                                data-sb-validations="required" />
+                            <label for="name">Nome completo</label>
+                            <div class="invalid-feedback" data-sb-feedback="name:required">É necessário o nome
+                                completo.</div>
+                        </div>
+                        <!-- Email address input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                                data-sb-validations="required,email" />
+                            <label for="email">Email</label>
+                            <div class="invalid-feedback" data-sb-feedback="email:required"> É necessário o e-mail.
+                            </div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">E-mail não é válido.</div>
+                        </div>
+                        <!-- Phone number input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
+                                data-sb-validations="required" />
+                            <label for="phone">Telefone</label>
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">Anúmero de telefone é
+                                obrigatório.</div>
+                        </div>
+                        <!-- Message input-->
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" type="text"
+                                placeholder="Enter your message here..." style="height: 10rem"
+                                data-sb-validations="required"></textarea>
+                            <label for="message">Mensagem</label>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">
+                                É necessária uma mensagem.
+                            </div>
+                        </div>
+                        <!-- Submit success message-->
+                        <!---->
+                        <!-- This is what your users will see when the form-->
+                        <!-- has successfully submitted-->
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3">
+                                <div class="fw-bolder"></div>
+                            </div>
+                        </div>
+                        <!-- Submit error message-->
+                        <!---->
+                        <!-- This is what your users will see when there is-->
+                        <!-- an error submitting the form-->
+                        <div class="d-none" id="submitErrorMessage">
+                            <div class="text-center text-danger mb-3">Error sending message!</div>
+                        </div>
+                        <!-- Submit Button-->
+                        <button class="btn btn-primary btn-xl disabled" id="submitButton"
+                            type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 
