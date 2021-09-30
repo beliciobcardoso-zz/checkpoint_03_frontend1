@@ -703,7 +703,7 @@ progress {
   .container-md,
   .container-sm,
   .container {
-    max-width: 960px;
+    max-width: 1270px;
   }
 }
 
@@ -12425,7 +12425,6 @@ padding-top: 50px;
 
 @media (min-width: 992px) {
 
-  /* teste */
   .masthead {
     padding-top: calc(0rem + 80px);
     padding-bottom: 0rem;
